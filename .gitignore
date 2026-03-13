@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Local runtime data
+logs.db
+*.db
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS/editor noise
+.DS_Store
+.vscode/
