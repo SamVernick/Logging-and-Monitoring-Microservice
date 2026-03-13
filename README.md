@@ -61,7 +61,6 @@ Send a log from any service.
 | `message` | string | Yes      | Human-readable description of the event              |
 | `level`   | string | No       | `DEBUG`, `INFO`, `WARNING`, `ERROR`, or `CRITICAL` (default: `INFO`) |
 
-## Example requests
 
 **JavaScript (fetch)**
 
